@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: black
+}
+
+#app-container{
+    margin: 50px auto 25px auto;
+    width: 400px;
+    height: 350px;
+    background-color: #1F2937;
+    border-radius: 5px;
+    padding: 60px 25px 20px 25px
+}
+
+h1, h2{
+    color: white
+}
+
+h1{
+    margin-bottom: 0px
+}
+
+h2{
+    padding-left: 2px;
+    margin-top: 7px;
+    color: lightgray;
+    font-size: 18px;
+}
+
+#rand-pass-text{
+    color: #6EE7B7
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+}
+
+#password-specification-container{
+    display: flex;
+    
+}
+
+#button-password-length-container{
+    display: flex;
+    
+}
+
+#password-length{
+    margin: auto 8px;
+    width: 36px;
+    height: 17px;
+    border-radius: 3px;
+    border: none
+}
+
+#checkbox-container{
+    color: white;
+    margin: auto 10px;
+}
+
+#symbol-checkbox, #numbers-checkbox{
+    margin: 0px 5px;
+}
+
+#generate-btn{
+    border: none;
+    background-color: #10B981;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+#generated-passwords{
+    display: flex;
+    margin-top: 50px;
+}
+
+.password-container{
+    text-align: center;
+    width: 200px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    background-color: #374151 ;
+    border-radius: 10px;
+    color: #6EE7B7
+}
